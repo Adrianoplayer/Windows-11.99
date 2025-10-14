@@ -35,8 +35,6 @@ git clone https://github.com/Adrianoplayer/Windows-11.99.git
 cd Windows-11.99
 
 ```
-
 # 5. Run the main script (or install APK if desired)
 echo "Iniciando Windows 11.99..."
-
 ```
