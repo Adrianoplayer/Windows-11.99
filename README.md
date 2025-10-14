@@ -13,18 +13,28 @@ commads use on termux app
 #!/data/data/com.termux/files/usr/bin/bash
 # Script to install and configure Windows 11.99
 
+```
+
 # 1. Update packages
 ~ $ pkg update -y && pkg upgrade -y
+
+```
 
 # 2. Install required dependencies
 pkg install git -y
 pkg install wget -y
 
+```
+
 # 3. clone repository
 git clone https://github.com/Adrianoplayer/Windows-11.99.git
 
+```
+
 # 4. To enter in the folder
 cd Windows-11.99
+
+```
 
 # 5. Run the main script (or install APK if desired)
 echo "Iniciando Windows 11.99..."
