@@ -20,16 +20,24 @@ Easily install and run the Windows 11.99 environment inside Termux using just a 
 ```bash
 # 1. Update Termux packages
 pkg update -y && pkg upgrade -y
+```
+# users
 
-# 2. Install required dependencies
+```
 pkg install git -y
 pkg install wget -y
 
+```
 # 3. Clone the Windows 11.99 repository
+```
 git clone https://github.com/Adrianoplayer/Windows-11.99.git
 
+```
 # 4. Enter the cloned folder
+```
 cd Windows-11.99
 
-# 5. Run the main setup script
+```
+# setup bash
+```
 bash setup.sh
