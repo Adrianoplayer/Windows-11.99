@@ -66,9 +66,9 @@ proot-distro login ubuntu
 ```
 # 5. Inside Ubuntu: install the desktop and VNC server
 ```
+```
 apt update && apt upgrade -y
 apt install xfce4 xfce4-goodies tightvncserver -y
-```
 ```
 # 6. Start the VNC server
 ```
