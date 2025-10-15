@@ -41,7 +41,7 @@ bash setup.sh
 # 🖥️ Run Windows 11.99 with VNC (on Termux)
 ```
 ```
-This setup lets you run a graphical Windows-like desktop environment inside Termux and access it through **VNC Viewer**.
+
 ```
 ---
 ```
@@ -71,10 +71,10 @@ proot-distro login ubuntu
 apt update && apt upgrade -y
 apt install xfce4 xfce4-goodies tightvncserver -y
 ```
+```
 # 6. Start the VNC server
 ```
+``
 vncserver :1
 ```
-```
 # (Default port: 5901 → use address 127.0.0.1:5901 in VNC Viewer)
-```
