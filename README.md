@@ -60,7 +60,7 @@ pkg install git wget proot-distro -y
 # 3. Install Ubuntu as base system
 ```
 proot-distro install ubuntu
-
+```
 # 4. Login into Ubuntu
 ```
 proot-distro login ubuntu
